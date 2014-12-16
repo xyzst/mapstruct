@@ -30,7 +30,7 @@ import org.mapstruct.ap.model.source.Method;
  *
  * @author Sjaak Derksen
  */
-public class InheritanceSelector implements MethodSelector {
+public class InheritanceSourceSelector implements MethodSelector {
 
     @Override
     public <T extends Method> List<T> getMatchingMethods(
